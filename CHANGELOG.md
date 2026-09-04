@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/godwyn20/kveld-morphe-patches/compare/v1.0.1...v1.0.2) (2026-09-04)
+
+### 🐛 Bug Fixes
+
+* remove spaces around version property for semantic-release compatibility ([fb3f310](https://github.com/godwyn20/kveld-morphe-patches/commit/fb3f31007fa7eccf6211e070dfd7f511a7225fcc))
+
 <<<<<<< HEAD
 =======
 ## [1.0.1](https://github.com/godwyn20/kveld-morphe-patches/compare/v1.0.0...v1.0.1) (2026-09-04)

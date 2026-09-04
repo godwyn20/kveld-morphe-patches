@@ -1,15 +1,7 @@
 {
-<<<<<<< HEAD
-  "created_at": "2026-09-02T23:00:05",
-  "description": "## [1.11.0](https://github.com/kveld9/kveld-morphe-patches/compare/v1.10.1...v1.11.0) (2026-09-02)\n\n### ✨ New Features\n\n* **brave:** update patches for v1.94.119 and validate on physical arm64 device ([3e1fc19](https://github.com/kveld9/kveld-morphe-patches/commit/3e1fc19f62e796e02852f52b234e972ecf89a23a))",
-  "download_url": "https://github.com/kveld9/kveld-morphe-patches/releases/download/v1.11.0/patches-1.11.0.mpp",
+  "created_at": "2026-09-04T07:57:57",
+  "description": "## [1.0.2](https://github.com/godwyn20/kveld-morphe-patches/compare/v1.0.1...v1.0.2) (2026-09-04)\n\n### 🐛 Bug Fixes\n\n* remove spaces around version property for semantic-release compatibility ([fb3f310](https://github.com/godwyn20/kveld-morphe-patches/commit/fb3f31007fa7eccf6211e070dfd7f511a7225fcc))",
+  "download_url": "https://github.com/godwyn20/kveld-morphe-patches/releases/download/v1.0.2/patches-1.0.2.mpp",
   "signature_download_url": "",
-  "version": "1.11.0"
-=======
-  "created_at": "2026-09-04T07:11:16",
-  "description": "## [1.0.1](https://github.com/godwyn20/kveld-morphe-patches/compare/v1.0.0...v1.0.1) (2026-09-04)\n\n### 🐛 Bug Fixes\n\n* change Brave apkFileType from APKM to APK ([559c98b](https://github.com/godwyn20/kveld-morphe-patches/commit/559c98b6dd3a0115c40b356d61a9afe1972bc224))",
-  "download_url": "https://github.com/godwyn20/kveld-morphe-patches/releases/download/v1.0.1/patches-1.0.1.mpp",
-  "signature_download_url": "",
-  "version": "1.0.1"
->>>>>>> a7f017f55a467827cd0979cfe008abcf4769221c
+  "version": "1.0.2"
 }
