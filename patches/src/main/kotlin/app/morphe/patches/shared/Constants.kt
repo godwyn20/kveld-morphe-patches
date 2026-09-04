@@ -11,7 +11,7 @@ object Constants {
     val COMPATIBILITY_BRAVE = Compatibility(
         name = "Brave Private Web Browser, VPN",
         packageName = BRAVE_PACKAGE_NAME,
-        apkFileType = ApkFileType.APKM,
+        apkFileType = ApkFileType.APK,
         appIconColor = 0xFF4500,
         targets = listOf(
             AppTarget(
