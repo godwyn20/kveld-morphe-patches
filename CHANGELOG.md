@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/godwyn20/kveld-morphe-patches/compare/v1.0.0...v1.0.1) (2026-09-04)
+
+### 🐛 Bug Fixes
+
+* change Brave apkFileType from APKM to APK ([559c98b](https://github.com/godwyn20/kveld-morphe-patches/commit/559c98b6dd3a0115c40b356d61a9afe1972bc224))
+
 ## 1.0.0 (2026-09-03)
 
 ### 🐛 Bug Fixes
