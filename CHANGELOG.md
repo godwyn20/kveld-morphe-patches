@@ -1,3 +1,11 @@
+## [1.1.0](https://github.com/godwyn20/kveld-morphe-patches/compare/v1.0.2...v1.1.0) (2026-09-05)
+
+### ✨ New Features
+
+* **brave:** update target to v1.94.121 and align libchrome offsets ([fe413fd](https://github.com/godwyn20/kveld-morphe-patches/commit/fe413fd7b1c02e4518faa553cd6733eb222e33f1))
+* merge upstream v1.13.0 and remove Vivaldi patches ([08b2366](https://github.com/godwyn20/kveld-morphe-patches/commit/08b236691a0edd5a5ef3ca7c581591b4fefadee7))
+* **vivaldi:** update patches for v8.2.4147.28 and align libchrome offsets ([b37b01d](https://github.com/godwyn20/kveld-morphe-patches/commit/b37b01d935425e3df752a07d0b1f83cdb5c55945))
+
 ## [1.0.2](https://github.com/godwyn20/kveld-morphe-patches/compare/v1.0.1...v1.0.2) (2026-09-04)
 
 ### 🐛 Bug Fixes

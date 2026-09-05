@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-04T07:57:57",
-  "description": "## [1.0.2](https://github.com/godwyn20/kveld-morphe-patches/compare/v1.0.1...v1.0.2) (2026-09-04)\n\n### 🐛 Bug Fixes\n\n* remove spaces around version property for semantic-release compatibility ([fb3f310](https://github.com/godwyn20/kveld-morphe-patches/commit/fb3f31007fa7eccf6211e070dfd7f511a7225fcc))",
-  "download_url": "https://github.com/godwyn20/kveld-morphe-patches/releases/download/v1.0.2/patches-1.0.2.mpp",
+  "created_at": "2026-09-05T13:37:35",
+  "description": "## [1.1.0](https://github.com/godwyn20/kveld-morphe-patches/compare/v1.0.2...v1.1.0) (2026-09-05)\n\n### ✨ New Features\n\n* **brave:** update target to v1.94.121 and align libchrome offsets ([fe413fd](https://github.com/godwyn20/kveld-morphe-patches/commit/fe413fd7b1c02e4518faa553cd6733eb222e33f1))\n* merge upstream v1.13.0 and remove Vivaldi patches ([08b2366](https://github.com/godwyn20/kveld-morphe-patches/commit/08b236691a0edd5a5ef3ca7c581591b4fefadee7))\n* **vivaldi:** update patches for v8.2.4147.28 and align libchrome offsets ([b37b01d](https://github.com/godwyn20/kveld-morphe-patches/commit/b37b01d935425e3df752a07d0b1f83cdb5c55945))",
+  "download_url": "https://github.com/godwyn20/kveld-morphe-patches/releases/download/v1.1.0/patches-1.1.0.mpp",
   "signature_download_url": "",
-  "version": "1.0.2"
+  "version": "1.1.0"
 }

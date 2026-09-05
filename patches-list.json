@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "patches": [
     {
       "name": "Add AMOLED Theme",
@@ -74,7 +74,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.94.119",
+              "version": "1.94.121",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -112,60 +112,6 @@
       "options": []
     },
     {
-      "name": "Block Vivaldi Sync",
-      "description": "Redirects bifrost.vivaldi.com to 0.0.0.0 in libchrome.so to completely disable Vivaldi account synchronization for an air-gapped experience.",
-      "default": false,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#EF3939",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.2.4145.4",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Block Vivaldi Telemetry",
-      "description": "Blocks Vivaldi usage statistics, crash reporting, Crashpad endpoints, and DirectMatch suggestions.",
-      "default": true,
-      "dependencies": [
-        "RawResourcePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#EF3939",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.2.4145.4",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
       "name": "Brave In-Product & Commercial Notification Optimizer",
       "description": "Eliminates background wakeups and notifications from Chromium tips scheduler (Job ID 105), Brave Rewards onboarding promo, and retention marketing campaigns.",
       "default": true,
@@ -180,7 +126,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.94.119",
+              "version": "1.94.121",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -208,7 +154,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.94.119",
+              "version": "1.94.121",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -234,35 +180,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.94.119",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Clean Speed Dial Bookmarks",
-      "description": "Removes sponsored commercial affiliate bookmarks, hides the 3-dot customize button, and disables phantom touch actions on the blank Start Page.",
-      "default": true,
-      "dependencies": [
-        "RawResourcePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#EF3939",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.2.4145.4",
+              "version": "1.94.121",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -312,32 +230,6 @@
       ]
     },
     {
-      "name": "Close Tabs on Exit",
-      "description": "Prevents tab restoration on startup, ensuring Vivaldi always opens with a clean Start Page session regardless of how the app was terminated.",
-      "default": false,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#EF3939",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.2.4145.4",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
       "name": "Disable Background Sync & Periodic Sync",
       "description": "Eliminates background wakeups, radio modem activity, and battery drain by forcing GooglePlayServicesChecker.shouldDisableBackgroundSync() -> true and neutralizing wakeup tasks.",
       "default": true,
@@ -352,33 +244,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.94.119",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable Background Sync & Periodic Sync",
-      "description": "Eliminates background wakeups, radio modem activity, and battery drain by neutralizing periodic and one-shot background sync tasks.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#EF3939",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.2.4145.4",
+              "version": "1.94.121",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -404,7 +270,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.94.119",
+              "version": "1.94.121",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -421,33 +287,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4145.4",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable Chromium Tips & Notification Scheduler",
-      "description": "Eliminates periodic background wakeups, native library loading, and in-product promotional tips from Chromium tips scheduler.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#EF3939",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.2.4145.4",
+              "version": "8.2.4147.28",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -551,7 +391,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.94.119",
+              "version": "1.94.121",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -630,32 +470,6 @@
           "targets": [
             {
               "version": "18.1.3.962075747-lite_beta-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable Vivaldi Prompts & In-App Popups",
-      "description": "Disables in-app donation prompts, search engine switch promos, rate-app popups, background privacy report alarms, and default browser promotional handlers.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#EF3939",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.2.4145.4",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -811,7 +625,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.94.119",
+              "version": "1.94.121",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -828,7 +642,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4145.4",
+              "version": "8.2.4147.28",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -900,7 +714,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.94.119",
+              "version": "1.94.121",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -926,7 +740,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.94.119",
+              "version": "1.94.121",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -960,7 +774,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4145.4",
+              "version": "8.2.4147.28",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -998,32 +812,6 @@
       "options": []
     },
     {
-      "name": "Resource Slimmer",
-      "description": "Strips bundled stock wallpapers and sponsored Speed Dial thumbnails to reduce APK size.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#EF3939",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.2.4145.4",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
       "name": "Skip First Run",
       "description": "Skips the welcome screen, search engine selection, and onboarding First Run Experience (FRE) on clean installs.",
       "default": true,
@@ -1038,7 +826,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.94.119",
+              "version": "1.94.121",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1055,33 +843,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4145.4",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Vivaldi Startup Performance Optimization",
-      "description": "Optimizes cold startup time, eliminates background CPU/disk overhead, and guards against early CompositorView LayoutStateObserver crashes.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#EF3939",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.2.4145.4",
+              "version": "8.2.4147.28",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
